@@ -31,7 +31,7 @@ function getUserInfo() {
         //     Authorization:localStorage.getItem('token'),
         // }, 
         success: (res) => {
-            console.log(res);
+            // console.log(res);
             if (res.status !== 0) return layer.msg('获取用户信息失败')
             layer.msg('获取用户信息成功')
             // 调用渲染头像函数
